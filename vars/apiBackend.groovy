@@ -15,6 +15,7 @@ def call() {
         }
         stage('Build') {
             echo "Building the project..."
+            echo "Hello world"
         }
         stage('Test') {
             parallel(
